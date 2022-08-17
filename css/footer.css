@@ -1,0 +1,40 @@
+.footer {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.footer .container {
+    padding: 2.08rem 0;
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.12rem;
+}
+.contacts-left {
+    height: 7.41rem;
+    width: 8.2rem;
+}
+.logo-white{
+    width: 60%;
+    margin-bottom: 1.25rem;
+}
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-right {
+    width: 13.25rem;
+    /* height: 3.3rem; */
+}
+.phone, .mail {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.9rem
+}
+.phone {
+    margin-bottom: 1rem;
+}
+.bottom {
+    font-size: 0.75rem;
+}

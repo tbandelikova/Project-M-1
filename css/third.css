@@ -1,0 +1,26 @@
+.format {
+    margin-top: 6.75rem;
+}
+.format-title, .know-title {
+    margin-bottom: 2rem;
+}
+.format-wrap {
+    display: flex;
+    gap: 3rem;
+    width: 83%;
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+}
+.title {
+    font-size: 1.04rem;
+    color: #1E4681;
+    margin-bottom: 0.5rem;
+}
+.text {
+    font-size: 0.75rem;
+    line-height: 130%;
+}
+.know-list {
+    width: 52%;
+    line-height: 150%;
+}

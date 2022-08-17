@@ -1,0 +1,29 @@
+.course-start {
+    background-color: #9DC9C8;
+}
+.course-start .container {
+    padding: 7.46rem 0 7.7rem 0;
+}
+.start-date {
+    margin-bottom: 2.25rem;
+}
+.course-cost {
+    margin-bottom: 3rem;
+}
+.course-cost p:first-of-type{
+    font-size: 1.04rem;
+}
+.course-cost p:nth-of-type(2){
+    font-size: 3.33rem;
+}
+.cours-text {
+    display: flex;
+    width: 55%;
+}
+.cours-text-item p:first-of-type{
+    font-size: 1.04rem;
+    margin-bottom: 0.5rem;
+}
+.cours-text-item p:nth-of-type(2){
+    font-size: 0.75rem;
+}

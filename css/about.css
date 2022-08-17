@@ -1,0 +1,116 @@
+.about {
+    padding: 5rem 0 0;
+    font-size: 24px;
+}
+.about-title {
+    margin-bottom: 1rem;
+}
+.central-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9rem;
+    margin-bottom: 2rem;
+}
+.about-course-text *{
+    margin-bottom: 1rem;
+    line-height: 150%;
+}
+.about-course-text *:last-child{
+    margin-bottom: 0;
+}
+.about-central-img{
+    margin-top: 2rem;
+    min-width: 15.25rem;
+    position: relative;
+}
+.about-central-img img{
+    width: 86%;
+    height: 86%;
+    object-fit: contain;
+    object-position: center;
+}
+.about-central-img .ellipse_2 {
+    width: 100%;
+    height: 2.45rem;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    bottom: -1rem;
+    left: -0.8rem;
+}
+.bottom-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
+
+}
+.about-bottom-img {
+    min-width: 9.67rem;
+    position: relative;
+}
+.about-bottom-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.about-bottom-img .ellipse_3 {
+    width: 81%;
+    height: 1.33rem;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    bottom: -0.4rem;
+    left: 1.4rem;
+}
+.offer {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    line-height: 130%;
+}
+.offer-item {
+    font-size: 0.75rem;
+}
+.offer-item p:first-child {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .central-block {
+        display: block;
+    }
+    .about-central-img{
+        margin: auto;
+        width: 170px;
+    }
+    .about-central-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+    .about-bottom-img {
+        display: none;
+    }
+       /* Fonts */
+    .about {
+        font-size: 12px;
+    }
+    .about-title {
+        font-size: 26px;
+    }
+    .offer-item li:last-child {
+        font-size: 10px;
+    }
+    .offer-item li:first-child {
+        font-size: 12px;
+        margin-bottom: 0.2rem;
+    }
+}

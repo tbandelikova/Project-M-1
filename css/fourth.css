@@ -1,0 +1,39 @@
+.programm {
+    margin-top: 6.75rem;
+}
+.programm-title {
+    margin-bottom: 2rem;
+}
+.cards-wrap {
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap: 1.54rem;
+}
+.cards-item {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    transition: transform 0.5s ease-in-out;
+}
+.cards-item:hover {
+    transform: scale(1.1);
+}
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card-inner {
+    padding: 0.8rem;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 130%;
+    margin-bottom: 1rem;
+}
+.card-text {
+    font-size: 1.04rem;
+    line-height: 130%;
+}
