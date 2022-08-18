@@ -47,3 +47,11 @@
         font-size: 1rem;
     }
 }
+@media (min-width: 769px) and (max-width: 1130px) {
+    .course-start .container {
+        padding: 6.2rem 3rem 6.35rem;
+    }
+    .cours-text {
+        max-width: 27rem;
+    }
+}

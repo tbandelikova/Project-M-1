@@ -66,3 +66,12 @@
         font-size: 1.4rem;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1130px) {
+    .graduate .container {
+        padding: 3.8rem 3rem 4.6rem;
+    }
+    .graduate-wrap {
+        max-width: 32.7rem;
+    }
+}

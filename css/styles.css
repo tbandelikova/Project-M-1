@@ -23,7 +23,7 @@ html {
     max-width: 1280px;
     min-width: 320px;
     margin: auto;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 }
 h1, h2, h3 {
     font-family: 'Roboto Slab', serif;
@@ -40,6 +40,18 @@ h2 {
     }
     h2 {
         font-size: 26px;
+    }
+    .container {
+        padding: 0 3rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1130px) {
+    html {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 32px;
     }
     .container {
         padding: 0 3rem;
