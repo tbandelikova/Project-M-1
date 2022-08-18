@@ -2,7 +2,7 @@
     background-color: #9DC9C8;
 }
 .course-start .container {
-    padding: 7.46rem 0 7.7rem 0;
+    padding: 7.46rem 0.5rem 7.7rem;
 }
 .start-date {
     margin-bottom: 2.25rem;
@@ -26,4 +26,24 @@
 }
 .cours-text-item p:nth-of-type(2){
     font-size: 0.75rem;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .course-start .container {
+        padding: 6.2rem 3.6rem 6.35rem;
+    }
+    .course-cost p:first-of-type{
+        font-size: 1.2rem;
+    }
+    .course-cost p:nth-of-type(2){
+        font-size: 3.7rem;
+    }
+    .cours-text {
+        width: 99%;
+    }
+    .cours-text-item p:first-of-type{
+        font-size: 1.2rem;
+    }
+    .cours-text-item p:nth-of-type(2){
+        font-size: 1rem;
+    }
 }

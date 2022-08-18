@@ -3,7 +3,7 @@
     margin-top: 2rem;
 }
 .graduate .container {
-    padding: 3.8rem 0 4.6rem 0;
+    padding: 3.8rem 0.5rem 4.6rem;
 }
 .graduate-title {
     margin-bottom: 3.8rem;
@@ -44,4 +44,25 @@
 }
 .bottom-text img{
     width: 1.33rem;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .graduate .container {
+        padding: 3.8rem 3.6rem 4.6rem;
+    }
+    .graduate-title {
+        margin-bottom: 2.5rem;
+        width: 80%;
+    }
+    .graduate-wrap {
+        width: 100%;
+    }
+    .graduate-wrap p{
+        font-size: 1rem;
+    }
+    .graduate-bottom {
+        margin-top: 1rem;
+    }
+    .bottom-text h3{
+        font-size: 1.4rem;
+    }
 }

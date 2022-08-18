@@ -13,6 +13,7 @@
 }
 .title {
     font-size: 1.04rem;
+    font-weight: 700;
     color: #1E4681;
     margin-bottom: 0.5rem;
 }
@@ -21,6 +22,25 @@
     line-height: 130%;
 }
 .know-list {
-    width: 52%;
+    width: 55%;
     line-height: 150%;
+    padding-left: 1.5rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .format-wrap {
+        flex-direction: column;
+        padding: 0;
+        width: 55%;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+    .text {
+        font-size: 1rem;
+    }
+    .know-list {
+        width: 100%;
+        font-size: 1.2rem;
+    }
 }

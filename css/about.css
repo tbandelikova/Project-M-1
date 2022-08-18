@@ -1,6 +1,5 @@
 .about {
     padding: 5rem 0 0;
-    font-size: 24px;
 }
 .about-title {
     margin-bottom: 1rem;
@@ -21,7 +20,7 @@
 }
 .about-central-img{
     margin-top: 2rem;
-    min-width: 15.25rem;
+    max-width: 15.25rem;
     position: relative;
 }
 .about-central-img img{
@@ -82,35 +81,38 @@
     margin-bottom: 0.5rem;
 }
 
-@media (min-width: 320px) and (max-width: 991px) {
+@media (min-width: 320px) and (max-width: 768px) {
+    .about-title {
+        margin-bottom: 2rem;
+    }
+    .about-course-text p:first-child {
+        margin-bottom: 2rem;
+    }
     .central-block {
         display: block;
     }
+    .about-course-text {
+        font-size: 1.2rem;
+    }
     .about-central-img{
         margin: auto;
-        width: 170px;
     }
     .about-central-img img{
         width: 100%;
         height: 100%;
-        object-fit: contain;
-        object-position: center;
     }
     .about-bottom-img {
         display: none;
     }
-       /* Fonts */
-    .about {
-        font-size: 12px;
+    .offer {
+        width: 80%;
+        flex-wrap: wrap;
+        margin-top: 2rem;
     }
-    .about-title {
-        font-size: 26px;
+    .offer-item {
+        font-size: 1rem;
     }
-    .offer-item li:last-child {
-        font-size: 10px;
-    }
-    .offer-item li:first-child {
-        font-size: 12px;
-        margin-bottom: 0.2rem;
+    .offer-item p:first-child {
+        font-size: 1.2rem;
     }
 }

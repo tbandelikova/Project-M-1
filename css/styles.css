@@ -33,3 +33,15 @@ h1, h2, h3 {
 h2 {
     font-size: 55px;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .container {
+        padding: 0 3rem;
+    }
+}

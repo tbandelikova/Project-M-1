@@ -1,10 +1,16 @@
 .start {
     padding: 1rem 0 0;
     margin-bottom: 1rem;
-    font-size: 20px;
 }
 .logo {
+    max-width: 4.67rem;
     margin-bottom: 1rem;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .intro_wrap {
     display: flex;
@@ -14,6 +20,7 @@
 }
 .start_info {
     margin-right: 6rem;
+    font-size: 0.83rem;
 }
 .tesis {
     display: flex;
@@ -34,18 +41,19 @@
     margin-right: 0.2rem;
 }
 .intro_text {
-    width: 630px;
+    width: 26.25rem;
+    font-size: 0.83rem;
 }
 .intro_text h1{
-    font-size: 80px;
+    font-size: 3.33rem;
     margin-bottom: 1rem;
 }
 .intro_text p{
-line-height: 1.5;
+    line-height: 1.5;
 }
 .intro_img{
     margin-top: 2rem;
-    min-width: 12.7rem;
+    width: 12.7rem;
     position: relative;
 }
 .intro_img .ellipse_1 {
@@ -69,50 +77,36 @@ line-height: 1.5;
     color: white;
     line-height: 1.3;
     width: 33%;
-    min-width: 484px;
+    min-width: 20.16rem;
     border-radius: 5px;
     padding: 0.8rem 1.1rem;
     margin: auto;
 }
 .intro_quote-text {
     font-family: 'Roboto Slab', serif;
-    font-size: 25px;
+    font-size: 1.04rem;
     margin-bottom: 0.9rem;
 }
 .intro_quote-author {
     text-align: end;
 }
 
-@media (min-width: 320px) and (max-width: 991px) {
-    .intro_wrap {
-        display: block;
-    }
-    .start_info {
-        margin: auto;
-    }
+@media (min-width: 320px) and (max-width: 768px) {
     .intro_text {
-        min-width: 292px;
-    }
-    .intro_quote {
-        min-width: 225px;
-        width: 50%;
-        margin: 0;
-    }
-    .intro_img{
-        margin: 0 0 1rem auto;
-        max-width: 141px;
-        width: 50%;
-        text-align: end;
-    }
-    
-       /* Fonts */
-    .start {
-        font-size: 10px;
+        font-size: 1rem;
     }
     .intro_text h1 {
         font-size: 37px;
     }
-    .intro_quote-text {
-        font-size: 11px;
+    .intro_wrap {
+        display: block;
+    }
+    .intro_img{
+        margin-top: 0;
+        margin-left: auto;
+        min-width: 14.2rem;
+    }
+    .intro_quote {
+        margin-left: 0;
     }
 }
